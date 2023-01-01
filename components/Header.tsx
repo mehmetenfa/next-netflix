@@ -1,4 +1,4 @@
-import React from "react";
+import { BsSearch, BsFillBellFill } from "react-icons/bs";
 
 function Header() {
   return (
@@ -19,7 +19,12 @@ function Header() {
           <li className="headerlink">My List</li>
         </ul>
       </div>
-      <div></div>
+
+      <div>
+        <BsSearch className="hidden sm:inline h-6 w-6" />
+        <p className="hidden lg:inline">Kids</p>
+        <BsFillBellFill />
+      </div>
     </header>
   );
 }
