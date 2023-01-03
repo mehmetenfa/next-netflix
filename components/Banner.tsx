@@ -14,12 +14,12 @@ function Banner({ netflixOriginals }: Props) {
     setMovie(
       netflixOriginals[Math.floor(Math.random() * netflixOriginals.length)]
     )
-  }, [])
+  }, [netflixOriginals])
 
   return (
     <div>
         <div>
-            {/* <Image/> */}
+            <Image src={`${baseUrl}${movie?.backdrop_path || movie?.poster_path}`}/>
         </div>
     </div>
   )
