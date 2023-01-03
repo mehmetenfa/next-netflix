@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import { Movie } from '../typings'
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 
 interface Props {
   netflixOriginals: Movie[]
@@ -9,6 +9,12 @@ interface Props {
 function Banner({ netflixOriginals }: Props) {
 
   const [movie, setMovie] = useState<Movie | null>(null)
+
+  useEffect(() => {
+    setMovie(
+      netflixOriginals[Math.floor(Math.random() * netflixOriginals.length)]
+    )
+  }, [])
 
   return (
     <div>
