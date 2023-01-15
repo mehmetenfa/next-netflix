@@ -33,7 +33,7 @@ function Banner({ netflixOriginals }: Props) {
       <div className="ml-[6rem]">
         <div className="mb-[5rem]">
           <h1 className="text-2xl lg:text-7xl font-bold md:text-4xl sedatfont">
-            Bahattin
+            Sedat
           </h1>
         </div>
         <p className="mx-w-xs text-xs md:max-w-lg md:text-lg lg:max-w-2xl lg:text-2xl">
