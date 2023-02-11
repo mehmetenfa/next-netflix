@@ -25,7 +25,7 @@ function Banner({ netflixOriginals }: Props) {
       <div className="absolute top-0 left-0 -z-10 h-[95vh] w-screen">
         <img
           className="w-screen h-screen"
-          src="https://static.birgun.net/resim/haber-detay-resim/2021/05/20/sedat-peker-den-6-video-erdogan-sonrasinda-kimin-plani-varsa-bizi-mahvedecek-dedim-877805-5.jpg"
+          src='blob:https://web.whatsapp.com/6bf4c256-aa1d-467a-a676-254147325fa3'
           alt=""
         />
       </div>
@@ -33,7 +33,7 @@ function Banner({ netflixOriginals }: Props) {
       <div className="ml-[6rem]">
         <div className="mb-[5rem]">
           <h1 className="text-2xl lg:text-7xl font-bold md:text-4xl sedatfont">
-            Sedat
+            Bahattin
           </h1>
         </div>
         <p className="mx-w-xs text-xs md:max-w-lg md:text-lg lg:max-w-2xl lg:text-2xl">
